@@ -1,0 +1,30 @@
+﻿version: '3.8'
+
+services:
+  rentingapi:
+    image: rentingapi
+    build:
+      context: .
+      dockerfile: RentingAPI/Dockerfile
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__Database=Server=db;Database=Renting;User=sa;Password=Password1234;Encrypt=false;TrustServerCertificate=true;
+    networks:
+      - appnet
+
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Password1234
+    ports:
+      - "1433:1433"
+    networks:
+      - appnet
+
+networks:
+  appnet:
+    driver: bridge

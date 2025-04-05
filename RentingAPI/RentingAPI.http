@@ -1,0 +1,6 @@
+@RentingAPI_HostAddress = http://localhost:5073
+
+GET {{RentingAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

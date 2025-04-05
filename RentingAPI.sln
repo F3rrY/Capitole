@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentingAPI", "RentingAPI\RentingAPI.csproj", "{47ABEC64-B0FE-4C12-A44B-1E11E01CBD8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2A2EA33A-BD49-47C9-BDF4-06ED4E644979}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentingAPI.Domain", "RentingAPI.Domain\RentingAPI.Domain.csproj", "{C6A4C6D5-5BB8-4A51-80D7-7FD96C64D92F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentingAPI.Application", "RentingAPI.Application\RentingAPI.Application.csproj", "{C8E370E6-CBDC-45EC-944F-D6424A655E53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentingAPI.Infrastructure", "RentingAPI.Infrastructure\RentingAPI.Infrastructure.csproj", "{A1A41F90-00BE-4E4B-8587-2ECDBCE431D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentingAPI.Test", "RentingAPI.Test\RentingAPI.Test.csproj", "{3A12F516-F867-4C37-AFE7-F90E3FD8CEDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47ABEC64-B0FE-4C12-A44B-1E11E01CBD8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47ABEC64-B0FE-4C12-A44B-1E11E01CBD8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47ABEC64-B0FE-4C12-A44B-1E11E01CBD8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47ABEC64-B0FE-4C12-A44B-1E11E01CBD8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A4C6D5-5BB8-4A51-80D7-7FD96C64D92F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A4C6D5-5BB8-4A51-80D7-7FD96C64D92F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A4C6D5-5BB8-4A51-80D7-7FD96C64D92F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A4C6D5-5BB8-4A51-80D7-7FD96C64D92F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8E370E6-CBDC-45EC-944F-D6424A655E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8E370E6-CBDC-45EC-944F-D6424A655E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8E370E6-CBDC-45EC-944F-D6424A655E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8E370E6-CBDC-45EC-944F-D6424A655E53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1A41F90-00BE-4E4B-8587-2ECDBCE431D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1A41F90-00BE-4E4B-8587-2ECDBCE431D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1A41F90-00BE-4E4B-8587-2ECDBCE431D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1A41F90-00BE-4E4B-8587-2ECDBCE431D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A12F516-F867-4C37-AFE7-F90E3FD8CEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A12F516-F867-4C37-AFE7-F90E3FD8CEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A12F516-F867-4C37-AFE7-F90E3FD8CEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A12F516-F867-4C37-AFE7-F90E3FD8CEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,30 @@
+﻿# Archivos innecesarios
+**/.dockerignore
+**/.env
+**/.git
+**/.gitignore
+**/.vs
+**/.vscode
+**/.idea
+**/*.user
+**/*.dbmdl
+**/*.jfm
+
+# Configs de herramientas
+**/azds.yaml
+**/.toolstarget
+**/.settings
+**/.project
+
+# Archivos de compilación
+**/bin
+**/obj
+
+# Archivos de Docker (opcional)
+**/docker-compose*
+**/secrets.dev.yaml
+**/values.dev.yaml
+
+# Node.js
+**/node_modules
+**/npm-debug.log
